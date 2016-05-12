@@ -1,0 +1,29 @@
+{
+  "name": "node-webnfc",
+  "version": "0.0.2",
+  "description": "Implements the W3C Web NFC API based on neard",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/01org/node-webnfc.git"
+  },
+  "keywords": [
+    "NFC",
+    "Linux",
+    "neard"
+  ],
+  "author": "Zoltan Kis <zoltan.kis@intel.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/01org/node-webnfc/issues"
+  },
+  "dependencies": {
+    "dbus": "0.2.14",
+  }
+}
