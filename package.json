@@ -24,7 +24,6 @@
     "url": "https://github.com/01org/node-webnfc/issues"
   },
   "dependencies": {
-    "dbus": "0.2.14",
-    "native-promise-only": "^0.8.1"
+    "dbus": "0.2.14"
   }
 }
