@@ -65,9 +65,9 @@ function pushTest(data, mode, ignoreRead) {
 nfc._log.setLevel('debug');
 nfc._backend._log.setLevel('debug');
 
-watchTest(30000);
+watchTest(60000);
 
-pushTest(null, 'any', true);  // push randomly selected data to tag or peer
+// pushTest(null, 'any', true);  // push randomly selected data to tag or peer
 
 // override the previous
 // pushTest('http://www.npmjs.org', 'tag', true);  // becomes URI record
